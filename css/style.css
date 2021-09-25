@@ -1,11 +1,21 @@
 .site-header {
   background-color: #fff;
 }
+.site-text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  color: #222;
+}
 .sitenav-list a {
   text-decoration: none;
   color: #000;
 }
 .sitenav-link {
+font-family: Open Sans;
+font-style: normal;
 font-weight: bold;
 font-size: 14px;
 line-height: 150%;
@@ -13,7 +23,9 @@ letter-spacing: 2px;
 text-transform: uppercase;
 }
 .main-link {
-  font-weight: bold;
+font-family: Open Sans Condensed;
+font-style: normal;
+font-weight: bold;
 font-size: 15px;
 line-height: 150%;
 letter-spacing: 2px;
@@ -31,11 +43,15 @@ color: #fff;
   
 }
 .hero-heading {
+  font-family: Open Sans Condensed;
+  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 120%;
 }
 .hero-text {
+  font-family: Open Sans;
+  font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 150%;
@@ -52,6 +68,8 @@ color: #fff;
   background: #FFFFFF;
 }
 .services-heading {
+  font-family: Open Sans Condensed;
+  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 120%;
@@ -63,11 +81,15 @@ color: #fff;
   top: 0px;
 }
 .services-title {
+  font-family: Open Sans Condensed;
+  font-style: normal;
   font-weight: bold;
   font-size: 24px;
   line-height: 120%;
 }
 .services-text {
+  font-family: Open Sans;
+  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 150%;
@@ -81,6 +103,8 @@ color: #fff;
   background: #0EB4C1;
 }
 .info-heading {
+  font-family: Open Sans Condensed;
+  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 120%;  
@@ -91,9 +115,39 @@ color: #fff;
   color: #fff; 
 }
 .info-title {
+  font-family: Open Sans Condensed;
+  font-style: normal;
   font-weight: bold;
   font-size: 15px;
   line-height: 120%;
   letter-spacing: 2px;
   text-transform: uppercase; 
+}
+.footer {
+  width: 1440px;
+  
+  left: 0px;
+  top: 2370px;
+  background: #222;
+}
+.footer-text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  color: #fff;
+}
+.footer-list a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer-links {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 150%;  
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
