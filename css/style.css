@@ -1,5 +1,26 @@
+*:focus {
+  outline: 2px dotted #e01441;
+  outline-offset: 3px;
+}
 .site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #fff;
+}
+.logo-content {
+  display: flex;
+  align-items: center;
+}
+.logo-content a {
+  text-decoration: none;
+}
+.site-text:hover {
+  color:#e01441;
+}
+.site-text:active {
+  color: rgb(60, 9, 245);
+  opacity: 0.6;
 }
 .site-text {
   font-family: Open Sans;
@@ -8,10 +29,19 @@
   font-size: 24px;
   line-height: 33px;
   color: #222;
+  transition: opacity 0.4s ease;
+}
+.site-header-actions {
+  display: flex;
+  align-items: center;
 }
 .sitenav-list a {
   text-decoration: none;
   color: #000;
+}
+.sitenav-list {
+  display: flex;
+  list-style: none;
 }
 .sitenav-link {
 font-family: Open Sans;
@@ -21,33 +51,50 @@ font-size: 14px;
 line-height: 150%;
 letter-spacing: 2px;
 text-transform: uppercase;
+transition: opacity 0.4s ease;
+}
+.sitenav-link:hover {
+  color:#ce1940;
+}
+.sitenav-link:active {
+  opacity: 0.6;
 }
 .main-link {
 font-family: Open Sans Condensed;
 font-style: normal;
 font-weight: bold;
 font-size: 15px;
-line-height: 150%;
-letter-spacing: 2px;
 text-transform: uppercase;
 text-decoration: none;
+border: 2px solid #DE2E54;
+box-sizing: border-box;
+border-radius: 8px;
 background: #DE2E54;
 color: #fff;
+transition: opacity 0.4s ease;
+}
+.main-link:hover {
+  background:#fff;
+  color: #DE2E54;
+}
+.main-link:active {
+  opacity: 0.6;
+  color: blue;
 }
 .hero {
+  display: flex;
+  align-items: center;
   background-color: #0EB4C1;
   color: #fff;
 }
 .hero-content {
   width: 1440px;
-  
 }
 .hero-heading {
   font-family: Open Sans Condensed;
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
-  line-height: 120%;
+  font-size: 30px;
 }
 .hero-text {
   font-family: Open Sans;
@@ -57,28 +104,28 @@ color: #fff;
   line-height: 150%;
 }
 .hero-img {
-  width:"423px"; 
-  height:"504px";
+  width: 423px;
+  height: 504px;
 }
 .services-bg {
+  justify-content: center;
   width: 1440px;
-
-  left: 0px;
-  top: 631px;
   background: #FFFFFF;
+}
+.frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .services-heading {
   font-family: Open Sans Condensed;
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
-  line-height: 120%;
+  font-size: 30px;
 }
 .services-img {
   width: 200px;
   height: 200px;
-  left: 0px;
-  top: 0px;
 }
 .services-title {
   font-family: Open Sans Condensed;
@@ -88,31 +135,42 @@ color: #fff;
   line-height: 120%;
 }
 .services-text {
+  justify-content: center;
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 150%;
 }
+.frame-link {
+  justify-content: center;
+}
 .info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 1440px;
   height: 253px;
-  left: 1px;
-  top: 2117px;
-
   background: #0EB4C1;
+}
+.cta {
+  align-items: center;
 }
 .info-heading {
   font-family: Open Sans Condensed;
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 30px;
   line-height: 120%;  
   color: #fff;
 }
 .info-list a {
   text-decoration: none;
   color: #fff; 
+}
+.info-list {
+  display: flex;
+  list-style: none;
 }
 .info-title {
   font-family: Open Sans Condensed;
@@ -122,13 +180,31 @@ color: #fff;
   line-height: 120%;
   letter-spacing: 2px;
   text-transform: uppercase; 
+  border: 2px solid #fff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  transition: opacity 0.4s ease;
+}
+.info-title:hover {
+  color:#DE2E54;
+}
+.info-title:active {
+  color: rgb(60, 9, 245);
+  opacity: 0.6;
 }
 .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   width: 1440px;
-  
-  left: 0px;
-  top: 2370px;
   background: #222;
+}
+.logo-footer {
+  display: flex;
+  align-items: center;
+}
+.logo-footer a {
+  text-decoration: none;
 }
 .footer-text {
   font-family: Open Sans;
@@ -137,17 +213,35 @@ color: #fff;
   font-size: 24px;
   line-height: 33px;
   color: #fff;
+  transition: opacity 0.4s ease;
+}
+.footer-text:hover {
+  color:#DE2E54;
+}
+.footer-text:active {
+  color: rgb(60, 9, 245);
+  opacity: 0.6;
 }
 .footer-list a {
   text-decoration: none;
   color: #fff;
+}
+.footer-list {
+  display: flex;
+  list-style: none;
 }
 .footer-links {
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
-  line-height: 150%;  
-  letter-spacing: 2px;
   text-transform: uppercase;
+  transition: opacity 0.4s ease;
+}
+.footer-links:hover {
+  color:#DE2E54;
+}
+.footer-links:active {
+  color: rgb(60, 9, 245);
+  opacity: 0.6;
 }
